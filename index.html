@@ -12,9 +12,10 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" href="./images/logo.svg" />
   </head>
   <body>
-    <main>
+    <section>
       <nav>
         <div class="nav__container">
           <div class="nav__row">
@@ -23,7 +24,7 @@
                 <figure class="nav__logo--wrapper">
                   <img src="./images/logo.svg" alt="" />
                 </figure>
-                <h3 class="nav__logo--text ">Treact</h3>
+                <h3 class="nav__logo--text">Treact</h3>
               </div>
             </a>
             <div class="nav__links">
@@ -35,12 +36,49 @@
               </ul>
               <ul class="nav__links--user">
                 <li><a href="#" class="nav__link">Login</a></li>
-                <li><a href="#" class="nav__link--purple">Sign Up</a></li>
+                <li><a href="#" class="nav__link--purple purple--button">Sign Up</a></li>
               </ul>
             </div>
           </div>
         </div>
       </nav>
-    </main>
+      <main>
+        <div class="container">
+          <div class="row">
+            <div class="main__text">
+              <h1 class="main__title">
+                Beautiful React Templates <span class="purple">for you.</span>
+              </h1>
+              <p class="main__subtext">
+                Our templates are easy to setup, understand and customize. Fully
+                modular components with a variety of pages and components.
+              </p>
+
+              <div class="main__input">
+                <input
+                  type="text"
+                  placeholder="Your E-mail Address"
+                  class="main__input--box"
+                />
+                <button class="main__button purple--button">Get Started</button>
+              </div>
+              <p class="main__customers--text">OUR TRUSTED CUSTOMERS</p>
+              <div class="main__customers--wrapper">
+                <figure class="customers__img--wrapper">
+                  <img src="./images/customers.png" alt="">
+                </figure>
+              </div>
+  
+            </div>
+            <div class="main__img--container">
+              <figure class="main__img--wrapper">
+                <img src="./images/MainImage.svg" alt="">
+              </figure>
+            </div>
+          </div>
+        </div>
+        <img src="./images/main-blob.svg" alt="" class="main__blob">
+      </main>
+    </section>
   </body>
 </html>
