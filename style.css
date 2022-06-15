@@ -344,3 +344,50 @@ main {
   width: 1000px;
   height: 1000px;
 }
+
+/* steps */
+
+#steps {
+  padding: 0 32px;
+}
+
+.steps__image--wrapper {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.steps__text {
+  width: 50%;
+  padding: 0 56px;
+}
+
+.steps__title--big {
+  margin-bottom: 48px;
+}
+
+.step {
+  display: flex;
+  padding-bottom: 32px;
+}
+
+.step__number {
+  font-size: 36px;
+  font-weight: 600;
+  color: rgba(203,213,224, 1);
+  padding-right: 24px;
+}
+
+.step__title {
+  color: var(--blue);
+  font-weight: 600;
+  padding-bottom: 8px;  
+}
+
+.step__description {
+  color: var(--grey-text);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 2;
+}
+
