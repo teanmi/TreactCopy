@@ -46,6 +46,11 @@ img {
   background-color: rgb(23, 5, 63);
 }
 
+.purple__button--small {
+  padding: 12px 28px;
+  font-weight: 700;
+}
+
 section {
   position: relative;
 }
@@ -250,6 +255,7 @@ main {
   margin: 0 auto;
   font-weight: 500;
   margin-bottom: 32px;
+  line-height: 1.75;
 }
 
 /* features */
@@ -324,9 +330,6 @@ main {
   padding-right: 24px;
 }
 
-.quality__button {
-  padding: 12px 28px;
-}
 .quality__img--container {
   width: 50%;
   display: flex;
@@ -349,6 +352,7 @@ main {
 
 #steps {
   padding: 0 32px;
+  margin-bottom: 230px;
 }
 
 .steps__image--wrapper {
@@ -391,3 +395,57 @@ main {
   line-height: 2;
 }
 
+/* values */
+
+#values {
+  padding: 0 32px;
+}
+
+.values__text {
+  width: 50%;
+  padding-right: 52px;
+}
+
+.principles {
+  display: flex;
+  margin-bottom: 52px;
+}
+
+.principle__title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.principle__img--wrapper {
+  box-sizing: content-box;
+  width: 20px;
+  border-radius: 100px;
+  padding: 8px;
+  display: flex;
+  margin-right: 12px;
+}
+
+.values__money-img--wrapper{
+  background-color: rgb(154,230,180);
+  color: rgb(39, 103, 73);
+}
+
+.values__briefcase-img--wrapper {
+  background-color: rgb(254, 178, 178);
+  color: rgb(155, 44, 44);
+}
+
+.principle__title--text {
+  color: var(--blue);
+}
+
+.principle__description {
+  color: var(--grey-text);
+}
+
+.values__img--wrapper {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
